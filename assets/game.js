@@ -51,7 +51,7 @@
     ];
 
     var killFrameHelp = {};
-    killFrameHelp['POD'] =  'You killed a\nPOD\n\nThis is okay because openshift\nwill recover gracefully.';
+    killFrameHelp['POD'] =  'You killed a\nPOD\n\nThis is ok because\nOpenShift will recover\ngracefully.';
     killFrameHelp['ROUTE'] = 'You killed a\nROUTE\n\nThis removes the URL and\nis not automatically\nrecovered';
     killFrameHelp['SERVICE'] = 'You killed a\nSERVICE\n\n';
     killFrameHelp['BUILD'] = 'You killed a\nBUILD\n\n';
